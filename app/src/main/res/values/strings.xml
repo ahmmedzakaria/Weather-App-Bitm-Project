@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="action_settings">Change City</string>
+    <string name="title_activity_hourly_weather">HourlyWeatherActivity</string>
+    <string name="title_activity_sixteen_days_weather">SixteenDaysWeatherActivity</string>
+    <string name="username">Username</string>
+    <string name="password">Pasword</string>
+    username
+</resources>

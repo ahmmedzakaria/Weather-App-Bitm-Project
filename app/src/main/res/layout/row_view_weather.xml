@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:layout_height="wrap_content"
+        android:background="#ececec">
+
+
+        <TextView
+            android:id="@+id/textView_dayName"
+            android:hint="Day"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:typeface="serif"
+            android:textSize="23sp"
+            android:textColor="@android:color/holo_green_dark" />
+        <TextView
+            android:id="@+id/textView_date"
+            android:hint="Date"
+            android:layout_width="0dp"
+            android:typeface="serif"
+            android:textSize="21sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.75dp"
+        android:id="@+id/separator"
+        android:visibility="visible"
+        android:background="@android:color/holo_green_dark"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:text="Temperature"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:textSize="22sp"
+            android:typeface="serif"
+            android:textColor="#191970"/>
+        <TextView
+            android:id="@+id/textView_temperature"
+            android:text=""
+            android:typeface="serif"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView_16daysWeather"
+            android:layout_marginTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_weight=".2"
+            android:paddingBottom="10dp"
+            android:textColor="#0a0000"/>
+        <TextView
+            android:id="@+id/textView_precision"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1"
+            android:typeface="serif"
+            android:textColor="#191970"
+            android:textSize="26sp"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:text="Wind"
+            android:layout_width="0dp"
+            android:layout_weight=".6"
+            android:layout_height="wrap_content"
+
+            android:textSize="22sp"
+            android:typeface="serif"
+            android:textColor="#191970"/>
+        <TextView
+            android:id="@+id/textView_wind"
+            android:text=""
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:text="Pressure"
+            android:layout_width="0dp"
+            android:layout_weight=".6"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:typeface="serif"
+            android:textColor="#191970"/>
+        <TextView
+            android:id="@+id/textView_pressure"
+            android:text=""
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:text="Humidity"
+            android:layout_width="0dp"
+            android:layout_weight=".6"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:typeface="serif"
+            android:textColor="#191970"/>
+        <TextView
+            android:id="@+id/textView_humidity"
+            android:text=""
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
